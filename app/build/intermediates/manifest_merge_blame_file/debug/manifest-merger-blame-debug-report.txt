@@ -1,0 +1,48 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nsromapa.say.bottomnav"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:5:5-18:19
+12        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+12-->[androidx.core:core:1.0.0] C:\Users\Saytoonz\.gradle\caches\transforms-2\files-2.1\0621a4de773d6c8c2d74c5b6910cbecb\core-1.0.0\AndroidManifest.xml:22:18-86
+13        android:debuggable="true"
+14        android:icon="@mipmap/ic_launcher"
+14-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:6:9-43
+15        android:label="@string/app_name"
+15-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:7:9-41
+16        android:roundIcon="@mipmap/ic_launcher_round"
+16-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:8:9-54
+17        android:supportsRtl="true"
+17-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:9:9-35
+18        android:testOnly="true"
+19        android:theme="@style/AppTheme" >
+19-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:10:9-40
+20        <activity android:name="com.nsromapa.say.bottomnav.MainActivity" >
+20-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:11:9-17:20
+20-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:11:19-73
+21            <intent-filter>
+21-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:12:13-16:29
+22                <action android:name="android.intent.action.MAIN" />
+22-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:13:17-69
+22-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:13:25-66
+23                <action android:name="android.intent.action.VIEW" />
+23-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:14:17-68
+23-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:14:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:15:17-77
+25-->D:\ANDROID\BottomNav\app\src\main\AndroidManifest.xml:15:27-74
+26            </intent-filter>
+27        </activity>
+28    </application>
+29
+30</manifest>
